@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @sexuality_label %>
+
+<div>
+  <%= link_to "Edit this sexuality label", edit_sexuality_label_path(@sexuality_label) %> |
+  <%= link_to "Back to sexuality labels", sexuality_labels_path %>
+
+  <%= button_to "Destroy this sexuality label", @sexuality_label, method: :delete %>
+</div>

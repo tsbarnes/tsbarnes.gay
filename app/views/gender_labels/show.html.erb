@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @gender_label %>
+
+<div>
+  <%= link_to "Edit this gender label", edit_gender_label_path(@gender_label) %> |
+  <%= link_to "Back to gender labels", gender_labels_path %>
+
+  <%= button_to "Destroy this gender label", @gender_label, method: :delete %>
+</div>

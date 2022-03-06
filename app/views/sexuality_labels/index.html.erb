@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Sexuality labels</h1>
+
+<div id="sexuality_labels">
+  <% @sexuality_labels.each do |sexuality_label| %>
+    <%= render sexuality_label %>
+    <p>
+      <%= link_to "Show this sexuality label", sexuality_label %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New sexuality label", new_sexuality_label_path %>
