@@ -1,0 +1,2 @@
+class GenderLabelsController < ApplicationController
+end
