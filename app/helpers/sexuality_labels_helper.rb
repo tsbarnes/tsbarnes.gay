@@ -1,0 +1,2 @@
+module SexualityLabelsHelper
+end

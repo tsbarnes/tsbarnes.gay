@@ -1,0 +1,2 @@
+class SexualityLabel < ApplicationRecord
+end
