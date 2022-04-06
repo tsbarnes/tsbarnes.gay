@@ -45,6 +45,9 @@ gem "image_processing", "~> 1.2"
 # Use Devise for authentication [https://guides.rubyonrails.org/routing.html#authentication]
 gem "devise"
 
+# Active Admin
+gem "activeadmin"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]

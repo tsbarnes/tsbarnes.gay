@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
+  resources :links
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   resources :sexuality_labels
   resources :gender_labels
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

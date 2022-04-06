@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f59090 0%, #848484 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+div.gender {
+    color: lightpink;
+}
+
+div.sexuality {
+    color: lightsalmon;
+}
+
+div.links {
+    color: lightyellow;
+}
